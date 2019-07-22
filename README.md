@@ -4,24 +4,20 @@ Labview es un entorno de programación básica usada por ingenieros y científic
 pruebas y sistemas de control. Labview puede integrar una gran variedad de dispositivos de hardware. En este curso 
 utilizaremos el hardware de comunicación serial y el daq(data adquisición), configurando el hardware en el MAX 
 (Measurement y Automation Explorer )  usted puede descargar la versión de labview estudiantil para Windows .
-
 Labview es la contracción de las palabras = Laboratory Virtual Instrument Engineering
 
 Labview es un software de desarrollo gráfico y flexible creado por National Instruments una compañía que crea productos 
 de hardware que le permiten a las computadoras ayudar a ingenieros y científicos a tomar mediciones controlar procesos y 
 analizar y guardar datos. National Instruments fue fundada hace 39 años en Texas a partir de personas que laboraban en la 
 universidad de Texas.
-
 Científicos e ingenieros investigación desarrollo producción pruebas e industrias de servicio como los semiconductores 
 automotrices aeroespacial el centro nica, química, comunicaciones y farmacéutica han usado y continúan usando labview para 
 desarrollar su trabajo.
-
 Los programas de labview son llamados programas virtuales o VI´s labview es diferente a otros lenguajes de programación 
 por ejemplo Python o C ya que labview utiliza un lenguaje de programación grafica conocida como el lenguaje de 
 programación c para crear programas basados en símbolos gráficos labview utiliza una terminología familiar para científicos
 o ingenieros por lo que sus símbolos o iconos gráficos so fácilmente identificables por inspección visual se puede aprender 
 labview incluso si tiene poca experiencia en la programación.  
-
 Para empezar a utilizar nuestro programa abrimos labview creamos un nuevo proyecto principal mente empezaremos haciendo una 
 pequeña operación realizando una suma para esto en nuestra plataforma que nos abre labview que se llama front panel con 
 nuestro ratón de damos un clic derecho este a su ves nos desplegara un menú este seleccionaremos la primera opción  se llama 
