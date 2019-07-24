@@ -1,6 +1,5 @@
 # Control-de-procesos
-
-introducción 
+##Intrducción
 
 Labview es un entorno de programación básica usada por ingenieros y científicos para desarrollar mediciones sofisticadas
 pruebas y sistemas de control. Labview puede integrar una gran variedad de dispositivos de hardware. En este curso 
@@ -37,7 +36,7 @@ para poder cambiarle el nombre le ponemos A y hacemos lo mismo con el siguiente 
 ponemos resultado ya tenemos A y B y el resultado en nuestro front panel como podemos observar se cambio automáticamente en 
 nuestro block entonces donde tenemos nuestro signo de suma juntamos A y B  y de la salida la conectamos al resultado.
 
-Practica 1
+##practica 1
 
 Para empezar a utilizar nuestro programa abrimos labview creamos un nuevo proyecto principal mente empezaremos haciendo una 
 pequeña operación realizando una suma para esto en nuestra plataforma que nos abre labview que se llama front panel con nuestro 
