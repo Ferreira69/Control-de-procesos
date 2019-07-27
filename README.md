@@ -73,7 +73,7 @@ Cuando corramos el programa y le demos stop automáticamente se prendera el led.
 se encuentra dentro del ciclo se multiplique por 10 al presionar el botón de stop. Lo observamos en la siguiente imagen.
 En la figura 9 se muestra el código ya terminado junto nuestra vetana de front panel que es la que se podría mostrar a un operador.
 
-## Practica2
+## Practica 2
 
 Bueno ya tenemos la pequeña introducción hagamos un cálculo de masa corporal primero ponemos en nuestro front panel lo que vamos a 
 ocupar recordemos poner control T para que se nos desplieguen las dos ventanas para el cálculo de índice de masa corporal ponemos 3 
@@ -95,3 +95,4 @@ también si estas bajo o pasado de peso esto lo podemos ver en la figura 12 tamb
 Recordemos que la división entre 100 para los cm es una constante.
 
 El resultado de esta operación nos tiene que salir en la barra de slider que es la que nos va a mostrar el índice de masa corporal y también si estas bajo o pasado de peso esto lo podemos ver en la figura 12 también el código todo el código lo metemos dentro de un ciclo while para poder ir modificando los valores hasta que nosotros lo paremos con el botón de stop si nosotros no paramos el código con el botón de stop puede que cuando volvamos a correr el programa tengas algún error por eso es recomendable parar primero con el botón de stop y después la simulación.
+<ims src¨¨>
