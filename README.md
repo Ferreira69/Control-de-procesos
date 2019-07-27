@@ -1,5 +1,5 @@
 # Control-de-procesos
-##Intrducción
+## Intrducción
 
 Labview es un entorno de programación básica usada por ingenieros y científicos para desarrollar mediciones sofisticadas
 pruebas y sistemas de control. Labview puede integrar una gran variedad de dispositivos de hardware. En este curso 
@@ -36,7 +36,7 @@ para poder cambiarle el nombre le ponemos A y hacemos lo mismo con el siguiente 
 ponemos resultado ya tenemos A y B y el resultado en nuestro front panel como podemos observar se cambio automáticamente en 
 nuestro block entonces donde tenemos nuestro signo de suma juntamos A y B  y de la salida la conectamos al resultado.
 
-##practica 1
+## practica 1
 
 Para empezar a utilizar nuestro programa abrimos labview creamos un nuevo proyecto principal mente empezaremos haciendo una 
 pequeña operación realizando una suma para esto en nuestra plataforma que nos abre labview que se llama front panel con nuestro 
@@ -73,7 +73,7 @@ Cuando corramos el programa y le demos stop automáticamente se prendera el led.
 se encuentra dentro del ciclo se multiplique por 10 al presionar el botón de stop. Lo observamos en la siguiente imagen.
 En la figura 9 se muestra el código ya terminado junto nuestra vetana de front panel que es la que se podría mostrar a un operador.
 
-Practica2
+## Practica2
 
 Bueno ya tenemos la pequeña introducción hagamos un cálculo de masa corporal primero ponemos en nuestro front panel lo que vamos a 
 ocupar recordemos poner control T para que se nos desplieguen las dos ventanas para el cálculo de índice de masa corporal ponemos 3 
