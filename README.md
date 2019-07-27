@@ -95,4 +95,4 @@ también si estas bajo o pasado de peso esto lo podemos ver en la figura 12 tamb
 Recordemos que la división entre 100 para los cm es una constante.
 
 El resultado de esta operación nos tiene que salir en la barra de slider que es la que nos va a mostrar el índice de masa corporal y también si estas bajo o pasado de peso esto lo podemos ver en la figura 12 también el código todo el código lo metemos dentro de un ciclo while para poder ir modificando los valores hasta que nosotros lo paremos con el botón de stop si nosotros no paramos el código con el botón de stop puede que cuando volvamos a correr el programa tengas algún error por eso es recomendable parar primero con el botón de stop y después la simulación.
-<ims src¨¨>
+<ims src¨https://github.com/Ferreira69/Control-de-procesos/issues/1#issue-471367966¨>
