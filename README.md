@@ -39,12 +39,9 @@ nuestro block entonces donde tenemos nuestro signo de suma juntamos A y B  y de 
 ## practica 1
 
 Para empezar a utilizar nuestro programa abrimos labview creamos un nuevo proyecto principal mente empezaremos haciendo una 
-pequeña operación realizando una suma para esto en nuestra plataforma que nos abre labview que se llama front panel con nuestro 
-ratón de damos un clic derecho este a su ves nos desplegara un menú este seleccionaremos la primera opción  se llama numeric y s
-eleccionamos numeric control  lo que se realiza es que lo arrastramos asta nuestro front panel repetimos la misma acción otra ves 
-para que tengamos nuestros 2 números que vamos a sumar de la misma forma que realizamos la acción anterior repetiremos una pero a
-hora vamos a seleccionar otra la cual nos va a permitir visualizar el resultado de nuestra suma  a hora le damos control T para 
-que se nos despliegue la otra ventana de labview llamada  Block diagram en el cual se verán nuestros dos números que hemos 
+pequeña operación realizando una suma para esto en nuestra plataforma que nos abre labview que se llama front panel como se muestra en la figura.
+
+con nuestro ratón de damos un clic derecho este a su ves nos desplegara un menú este seleccionaremos la primera opción  se llama numeric y seleccionamos numeric control  lo que se realiza es que lo arrastramos asta nuestro front panel repetimos la misma acción otra ves para que tengamos nuestros 2 números que vamos a sumar de la misma forma que realizamos la acción anterior repetiremos una pero ahora vamos a seleccionar otra la cual nos va a permitir visualizar el resultado de nuestra suma  a hora le damos control T para que se nos despliegue la otra ventana de labview llamada  Block diagram en el cual se verán nuestros dos números que hemos 
 seleccionado junto con el indicador nos vamos a esta ventana de igual manera damos clic derecho y se nos desplegara un sub menú 
 del cual cambia al primero que aviamos visto seleccionas el recuadro que dice numeric y como vemos están las operaciones 
 seleccionamos la suma  lo que falta es acomodar nuestros recuadros seleccionamos el primero  le damos doble clic para poder 
