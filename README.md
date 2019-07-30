@@ -54,31 +54,42 @@ Repetimos la misma acción otra ves para que tengamos nuestros 2 números que va
 teniendo esto prosedemos adar control T para que se nos despliegue la otra ventana de labview llamada  Block diagram en el cual se verán nuestros dos números que hemos 
 seleccionado junto con el indicador nos vamos a esta ventana de igual manera damos clic derecho y se nos desplegara un sub menú 
 del cual cambia al primero que aviamos visto seleccionas el recuadro que dice numeric y como vemos están las operaciones 
-seleccionamos la suma  lo que falta es acomodar nuestros recuadros seleccionamos el primero  le damos doble clic para poder 
-cambiarle el nombre le ponemos A y hacemos lo mismo con el siguiente y de igual forma con el indicador pero a este le ponemos 
-resultado ya tenemos A y B y el resultado en nuestro front panel como podemos observar se cambio automáticamente en nuestro block 
-entonces donde tenemos nuestro signo de suma juntamos A y B  y de la salida la conectamos al resultado.
+seleccionamos la suma como se ve ne la fifigura.
+
+![Imagen LabVIEW](Fig.4.png)
+
+Falta es acomodar nuestros recuadros seleccionamos el primero  le damos doble clic para poder cambiarle el nombre le ponemos A y hacemos lo mismo con el siguiente y de igual forma con el indicador pero a este le ponemos resultado ya tenemos A y B y el resultado en nuestro front panel como podemos observar se cambio automáticamente en nuestro block entonces donde tenemos nuestro signo de suma juntamos A y B  y de la salida la conectamos al resultado.
 
 Con los botones que tenesmo en la parte superior de la plataforma podemos correr nuestro programa y ver como se va ejecutando.
+
 Ahora bien metamos nuestro programa a un siclo while para que se repita esto lo vamos hacer en nuestra ventana de block diagram  
-dando clic derecho y seleccionado structures como se ve en la imagen 
+dando clic derecho y seleccionado structures como se ve en la imagen.
+
+![Imagen LabVIEW](Fig.5.png)
 
 Una vez realizada esta acción ponemos el recuadro en la suma quedando enserrada la suma y si corremos el programa veremos que lo 
 va realizar una infinidad de veces entonces procedemos a poner un botón de paro lo ponemos en nuestra ventana de front dando clic  
 y seleccionado el botón  como hemos visto se pone en las dos ventanas lo que realizamos es coenctarlo pero para que no este 
 realizando cada segundo la misma acción ponemos un retardo con delay en la ventana  de igual forma todo se debe encontrar dentro 
 del recuadro de nuestro while  le ponemos una constante para poder le dar el retardo que nosotros deseamos con una constante lo 
-podemos observar como debe de quedar nuestro recuadro en la siguiente imagen.
+podemos observar como debe de quedar nuestro recuadro en la siguiente figura.
+
+![Imagen LabVIEW](Fig.6.png)
 
 Corremos el programa y observamos que lo realiza cada ves que nosotros metemos diferentes valores cambia presionamos nuestro botón 
 de stop y se para nuestro código, pongamos un indicador luminoso para saber cuándo ya este terminado el ciclo while.
 Lo ponemos en nuestra ventana front lo conectamos a nuestro botón de stop pero afuera del recuadro  para que este nos indique lo 
-observamos en la siguiente imagen.
+observamos en la siguiente figura.
+
+![Imagen LabVIEW](Fig.7.png)
 
 Cuando corramos el programa y le demos stop automáticamente se prendera el led. 
+
 Ágamos lo más difícil pongamos otra operación pero afuera del ciclo igual una suma pero ahora que el resultado que nos mande la que 
 se encuentra dentro del ciclo se multiplique por 10 al presionar el botón de stop. Lo observamos en la siguiente imagen.
 En la figura 9 se muestra el código ya terminado junto nuestra vetana de front panel que es la que se podría mostrar a un operador.
+
+![Imagen LabVIEW](Fig.8.png)
 
 ## Practica 2
 
