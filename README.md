@@ -130,3 +130,5 @@ Empezamos a trabajar con una tarjeta de adquisición de datos con arduino está 
 
 
 
+
+
