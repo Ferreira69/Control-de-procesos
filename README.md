@@ -124,7 +124,9 @@ Recordemos que la división entre 100 para los cm es una constante.
 ![Imagen LabVIEW](Fig.13.png)
 
 ## practica 3
+Empezamos a trabajar con una tarjeta de adquisición de datos con arduino está bien para esto teneos que tener una librería de labview llamada linx la cual nos podrá ser la interfaz de labview con arduino la librería la podemos buscar en la parte superior de labview en la barra seleccionamos la opción que dice toolos en la parte de asta abajo hay una opción que dice markerhub de haí nos vamos a la librería de linx si no la tenemos la podemos descargar de internet sin ningún problema dicho lo anterior lo podemos observar en la figura siguiente.
 
+![Imagen LabVIEW](Fig.14.png)
 
 
 
