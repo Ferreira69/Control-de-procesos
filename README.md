@@ -93,24 +93,32 @@ En la figura 9 se muestra el código ya terminado junto nuestra vetana de front 
 
 ## Practica 2
 
-Bueno ya tenemos la pequeña introducción hagamos un cálculo de masa corporal primero ponemos en nuestro front panel lo que vamos a 
-ocupar recordemos poner control T para que se nos desplieguen las dos ventanas para el cálculo de índice de masa corporal ponemos 3 
-de control numérico un slide vertical el botón de stop acomodamos las cosas uno de control numérico le ponemos peso en kg a otro 
-altura en m y por ultimo cm a la barra de slide le ponemos los rangos de 10 a 40 esto es solo dando doble clic en los limites y los 
+Bueno ya tenemos la pequeña introducción hagamos un cálculo de masa corporal primero ponemos en nuestro front panel colocamos lo que vamos a ocupar recordemos poner control T para que se nos desplieguen las dos ventanas para el cálculo de índice de masa corporal ponemos 3 de control numérico un slide vertical el botón de stop acomodamos las cosas uno de control numérico le ponemos peso en kg a otro altura en m y por ultimo cm a la barra de slide le ponemos los rangos de 10 a 40 esto es solo dando doble clic en los limites y los 
 escogemos le agregamos unas líneas donde nos diga que es lo que tenemos como el slide no es exacto selescionamos y damos doble clic 
-y le escogemos visible y agregar display le damos clic derecho   queda de la siguiente manera mostrada en la figura 10.
+y le escogemos visible y agregar display le damos clic derecho   queda de la siguiente manera mostrada en la figura.
+
+![Imagen LabVIEW](Fig.9.png)
+
+para colocar el displey que se encuentra aun costado del slide solo ponemos clic derecho nos saldra un menu despues seleccionamos vidible y hai encontramos el display se puede ver en la siguiente figura.
+
+![Imagen LabVIEW](Fig.10.png)
+
 Bien nos pasamos a la ventana de block vemos que ya tenemos nuestras cosas que vamos a ocupar lo que falta es la formula la cual es 
 peso entre la altura al cuadrado.
 
-Las letras de la decoración se agregan dando doble clic.
+Las letras de la decoración se agregan dando doble clic escribimos lo que se va a ocupar y solo lo clolocamos.
+
 Ya tenemos todo empezamos las operaciones primero tenemos que dividir los cm entre 100 recordemos que nos dará como resultado un numero 
 flotante, después eso mismo se lo sumamos a la parte entera que serán los metros y como dice la formula hay que dividir ponemos la 
 operación de la división y lo dividimos entre la altura ya con la operación antes realizada. Observemos como debe de quedar.
 
+![Imagen LabVIEW](Fig.11.png)
+
 El resultado de esta operación nos tiene que salir en la barra de slider que es la que nos va a mostrar el índice de masa corporal y 
 también si estas bajo o pasado de peso esto lo podemos ver en la figura 12 también el código todo el código lo metemos dentro de un ciclo while para poder ir modificando los valores hasta que nosotros lo paremos con el botón de stop si nosotros no paramos el código con el botón de stop puede que cuando volvamos a correr el programa tengas algún error por eso es recomendable parar primero con el botón de stop y después la simulación.
 
-Recordemos que la división entre 100 para los cm es una constante.
+![Imagen LabVIEW](Fig.12.png)
 
-El resultado de esta operación nos tiene que salir en la barra de slider que es la que nos va a mostrar el índice de masa corporal y también si estas bajo o pasado de peso esto lo podemos ver en la figura 12 también el código todo el código lo metemos dentro de un ciclo while para poder ir modificando los valores hasta que nosotros lo paremos con el botón de stop si nosotros no paramos el código con el botón de stop puede que cuando volvamos a correr el programa tengas algún error por eso es recomendable parar primero con el botón de stop y después la simulación.
-<ims src¨https://github.com/Ferreira69/Control-de-procesos/issues/2#issue-471691299¨>
+
+
+Recordemos que la división entre 100 para los cm es una constante.
