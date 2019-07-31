@@ -119,6 +119,12 @@ también si estas bajo o pasado de peso esto lo podemos ver en la figura 12 tamb
 
 ![Imagen LabVIEW](Fig.12.png)
 
+Recordemos que la división entre 100 para los cm es una constante.
+
 ![Imagen LabVIEW](Fig.13.png)
 
-Recordemos que la división entre 100 para los cm es una constante.
+## practica 3
+
+
+
+
