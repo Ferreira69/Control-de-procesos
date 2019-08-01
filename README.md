@@ -128,6 +128,25 @@ Empezamos a trabajar con una tarjeta de adquisición de datos con arduino está 
 
 ![Imagen LabVIEW](Fig.14.png)
 
+## practica 4
+
+## practica 5
+
+Pongamos un tipo alarma virtual la cal va a consistir que si el nivel fe temperatura pasa esta encenderá un led entonces abrimos labview y de igual forma colocamos que vamos a necesitar colocamos dos numeric control para poder tener acceso a estos  un termómetro estas cosas las podemos encontrar en el mismo lugar de numeric pongamos un led que se encienda cuando este pase del límite que nosotros vamos a seleccionar y el botón de estop .
+Cambiemos el nombre de nuestros componentes como límite, tiempo termómetro la barra del termómetro modificamos los limites de 0 a 100 todo lo anterior podemos visualizar en la siguiente figura.
+
+![Imagen LabVIEW](Fig.15.png)
+
+Ya teniendo todo esto nos pasamos a nuestra ventana de front panel.
+Como vemos ya tenemos todos los componentes lo que falta es hacer las operaciones que van a ejecutar.
+Colocamos el retardo para que el operador tenga la oportunidad de modificar el tiempo.
+
+![Imagen LabVIEW](Fig.16.png)
+
+Como podemos observar el usuario puede modificar el tiempo el limite de donde queremos que se encienda el led o nuestro aviso el cual nos indicara que ya esta en el limite se puede representar como si fuera una pequeña alarma.
+El recuadro azul que tenemos solo lo penemos de la siguiente manera damos doble clic derecho y nos vamos hasta la parte de abajo como se muestra en la figura.
+![Imagen LabVIEW](Fig.20.png)
+
 
 
 
