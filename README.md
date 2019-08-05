@@ -179,9 +179,13 @@ Bueno las constantes que vamos a colocar van hacer para los pines que vamos a es
 
 ![Imagen LabVIEW](Fig.26.png)
 
-Conexión del circuito del arduino 
+La conexión que se tiene que realizar físicamente es la siguiente se muestra en la siguiente figura.
 
+![Imagen LabVIEW](Fig.27.png)
 
+Una vez que tenemos conectado podemos correr el programa.
+
+## practica 7
 
 
 
