@@ -145,7 +145,45 @@ Colocamos el retardo para que el operador tenga la oportunidad de modificar el t
 
 Como podemos observar el usuario puede modificar el tiempo el limite de donde queremos que se encienda el led o nuestro aviso el cual nos indicara que ya esta en el limite se puede representar como si fuera una pequeña alarma.
 El recuadro azul que tenemos solo lo penemos de la siguiente manera damos doble clic derecho y nos vamos hasta la parte de abajo como se muestra en la figura.
+
 ![Imagen LabVIEW](Fig.20.png)
+
+## practica 6
+## practica 7
+Vamos a mandar una señal con corto como si fuera un botón y ala ves que se haga el corto se encienda un led. 
+En nuestra ventana de front panel colocamos nuestro botón de paro y nuestro led para verificar que este prendiendo al mismo tiempo los colocamos como se muestra en figura.
+
+![Imagen LabVIEW](Fig.21.png)
+
+A ora bien nos pasamos a nuestra ventana de block diagram  para implementar los bloques de arduino linx.
+
+![Imagen LabVIEW](Fig.22.png)
+
+En nuestro bloque de open damos clic derecho sobre donde dice serial port y le ponemos un control para poder elegir el puerto donde se conectara nuestro arduino como se muestra en la siguiente figura.
+
+![Imagen LabVIEW](Fig.23.png)
+
+Si no encontramos los bloques podemos dar control y la barra espaciadora escribimos lo que vamos a ocupar y solo damos enter el menú que nos tiene que salir es el siguiente.
+
+![Imagen LabVIEW](Fig.24.png)
+
+Posterior mente en buscamos y colocamos los siguientes recuadros 
+
+![Imagen LabVIEW](Fig.25.png)
+
+Unimos los bloques como lo hemos visto anterior mente donde esta los bloques seleccionamos Dll Channel y damos clic derecho y seleccionamos crear y damos constante como se ve en la figura siguiente. 
+
+![Imagen LabVIEW](Fig.25.png)
+
+Bueno las constantes que vamos a colocar van hacer para los pines que vamos a estar ocupando tiene que quedar conectado de la siguiente manera también le agregamos el retardo dentro del siclo 
+
+![Imagen LabVIEW](Fig.26.png)
+
+Conexión del circuito del arduino 
+
+
+
+
 
 
 
