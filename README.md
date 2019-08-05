@@ -185,11 +185,32 @@ La conexión que se tiene que realizar físicamente es la siguiente se muestra e
 
 Una vez que tenemos conectado podemos correr el programa.
 
-## practica 7
+## practica 8
 
+Para realizar una lectura analógica con la interfaz de arduino con labview empecemos colocando lo que se necesita como se muestra en la siguiente figura.
 
+![Imagen LabVIEW](Fig.28.png)
 
+En la opción que pusimos el pin que se va a utilizar como es una lectura analógica solo podemos utilizar los pines que van del A0 al A5 de nuestro arduino.
 
+Una ves que tenemos esto pasamos a realizar las conexiones y agregamos los recudros que nos hacen falta como se muestra en la siguiente figura.
 
+![Imagen LabVIEW](Fig.29.png)
 
+En el enum damos clic derecho y seleccionamos la parte que nos dice propiedades como se muestra en la figura.
 
+![Imagen LabVIEW](Fig.30.png)
+
+Seleccionamos edit ítems para agregar los puertos analógicos 
+
+![Imagen LabVIEW](Fig.31.png)
+
+La señal que recibimos del arduino del sensor analógico se va a multiplicar por 100 como se muestra en la figura.
+
+![Imagen LabVIEW](Fig.32.png)
+
+La conexión que sa va utilizar para leer la temperatura se muestra en la siguiente figura.
+
+![Imagen LabVIEW](Fig.33.png)
+
+Podemos correr el programa y se tiene que ver como funciona en nuestro front panel.
