@@ -262,3 +262,47 @@ De esta manera aremos el cambio de giro la conexión final nos tiene que quedar 
 La conexión del circuito es la siguiente en el cual ocuparemos un L293D.
 
 ![Imagen LabVIEW](Fig.42.png)
+
+## Practica 10
+
+Un control de temperatura es muy necesario cuando estás trabajando y el lugar se tiene que estar a una cierta temperatura por lo cual es posible configurar un límite superior o un límite inferior y si es rebasado estos límites  en la pantalla nos indique que limite es el que esta siendo afectado y que es lo que podría pasar para esto en nuestro front panel pondremos lo necesario para la lectura analógica del sensor lm35 que es el de temperatura entonces pondremos numeric  pondremos 2 y un termómetro el cual nos indicara en que temperatura estamos un enum este lo estaremos modificando para poder elegir el pin que nosotros deseamos un led indicador y el tex de alerta.
+
+![Imagen LabVIEW](Fig.43.png)
+
+El enum lo escogemos de ring y enum  para configurar el enum nos vamos a propiedades con clic derecho en este menú escogeremos edit ítems el cual nos dara la oportunidad de agregar los canales del arduino .
+
+![Imagen LabVIEW](Fig.44.png)
+
+Para el texto que nos saldrá en nuestro panel escogeremos el siguiente recuadro de string
+
+![Imagen LabVIEW](Fig.45.png)
+
+Una vez que tenemos todo esto lo encerramos en un ciclo while y colocamos las librerías de arduino pero a hora escogemos el linx de analog read. Y se lo conectamos a enum que será el que nos dará la señal analógica.
+
+![Imagen LabVIEW](Fig.46.png)
+
+Como solo obtenemos la señal del sensor cerramos todo el circuito y la señal que obtemos del sensor la multiplicamos por 100 y la salida lo ponemos en el termómetro como lo vimos anterior mente .
+
+![Imagen LabVIEW](Fig.47.png)
+
+Los limites que se van a establecer se colocaran con comparadores como se muestra a continuación la salida que tendrá la lectura analógica la conectaremos a los comparadores para que este saque la leyenda dependiendo lo que cense 
+
+![Imagen LabVIEW](Fig.48.png)
+
+Los selectores que se ven son sacados de la siguiente forma.
+
+![Imagen LabVIEW](Fig.49.png)
+
+Los textos que se muestran que son los que saldrán dependiendo el censado y los limites que nosotros consideremos se colocan como a continuación se muestra.
+
+![Imagen LabVIEW](Fig.50.png)
+
+La conexión final se muestra continuación.
+
+![Imagen LabVIEW](Fig.51.png)
+
+La conexión del sensor es la siguiente. 
+
+![Imagen LabVIEW](Fig.33.png)
+
+
