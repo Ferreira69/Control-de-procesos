@@ -321,4 +321,95 @@ La conexión del sensor es la siguiente.
 
 ![Imagen LabVIEW](Fig.33.png)
 
+## practica 11
+
+Un contador de 0 al 9 con una perilla que nos valla marcando los numero del 1 al 9 y que ala ves nos lo marque en un display de 7 segmentos.
+
+Para esto colocamos en nuestro fron panel la perilla y los led, pero como los leds no los podemos girar lo único que hacemos es hacerlos más anchos o más largos madamas jalándolos con nuestro ratón
+
+![Imagen LabVIEW](Fig.52.png)
+
+![Imagen LabVIEW](Fig.53.png)
+
+Les colocamos los nombres como si fuera nuestro display 
+
+Una vez teniendo esto podemos pasar a nuestra ventana de bloques para hacer lo correspondientes.
+Colocamos nuestro bloque de linx digital write y lo conectamos como se muestra a continuación.
+
+![Imagen LabVIEW](Fig.54.png)
+
+Nada más que a este bloque se le modifica para que tenga n entradas como se ve a continuación.
+
+![Imagen LabVIEW](Fig.55.png)
+
+Después seleccionamos lo siguiente para los segmentos del display
+
+![Imagen LabVIEW](Fig.56.png)
+
+Después seleccionamos lo siguiente
+
+![Imagen LabVIEW](Fig.57.png)
+
+Lo colocamos dentro del recuadro y nos tiene que quedar de la siguiente manera 
+
+![Imagen LabVIEW](Fig.58.png)
+
+Después lo jalamos hacia abajo para que salgan los segmentos del display 
+
+![Imagen LabVIEW](Fig.59.png)
+
+Repetimos la esta mima acción o solo lo seleccionamos damos control y luego control v para pegarlo y así tener ata el número 9.
+Como le mandaremos una señal de de voltaje será anado común el display a hora tenemos que darle la forma del número que queremos y darle la forma como se muestra en la figura 
+
+![Imagen LabVIEW](Fig.60.png)
+
+Como se muestra en la figura los leds que no se prenden están en falso y así lo hacemos para todos los numero.
+una vez que tenemos esto seleccionamos los siguientes
+
+![Imagen LabVIEW](Fig.61.png)
+
+De igual forma podemos como lo hemos estado haciendo jalamos hacia abajo para agregar todos los números como se muestra 
+
+![Imagen LabVIEW](Fig.62.png)
+
+Después conectamos los numero que una vez ya hemos realizado 
+
+![Imagen LabVIEW](Fig.63.png)
+
+Conectamos la salida de este a otro array 
+
+![Imagen LabVIEW](Fig.64.png)
+
+Una vez que tenemos esta conectamos la salida del buld y la salida de nuestra perilla como se muestra
+
+![Imagen LabVIEW](Fig.65.png)
+
+La salida de esta va ir conectada a otro index array 
+Para las salidas de nuestros números como se muestra
+
+![Imagen LabVIEW](Fig.66.png)
+
+A nuestro digital write le agregamos las salidas de nuestro display 
+
+![Imagen LabVIEW](Fig.67.png)
+
+Para esto nos quedara de la siguiente manera agregamos los 7 segmentos empezando desde el pin 2
+
+![Imagen LabVIEW](Fig.68.png)
+
+Hacemos la conexión que se realiza para los display 
+
+![Imagen LabVIEW](Fig.69.png)
+
+La conexión final se ve cono se muestra 
+
+![Imagen LabVIEW](Fig.70.png)
+
+La conexión del display de 7 segmentos con el arduino es la siguiente
+
+![Imagen LabVIEW](Fig.71.png)
+
+
+
+
 
