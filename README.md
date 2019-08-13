@@ -214,3 +214,51 @@ La conexión que sa va utilizar para leer la temperatura se muestra en la siguie
 ![Imagen LabVIEW](Fig.33.png)
 
 Podemos correr el programa y se tiene que ver como funciona en nuestro front panel.
+
+## Practica 9
+
+Puente H control de giro de un motor.
+
+Para esta práctica invertiremos el giro de un motor lo cual es uno de los más ocupados por que lo podemos encontrar en diferentes partes una de sus aplicaciones es en un elevador.
+
+Para poder realizar la practica empezaremos en front panel donde pondremos un led para poder intercambiar la dirección del giro del motor igual que una perilla para modificar la velocidad del motor o el pwm lo podemos ver en la siguiente figura ponemos la perilla de 0 a 5 por que serán los rangos que se estarán trabajando con la tarjeta de adquisición de datos.
+
+![Imagen LabVIEW](Fig.34.png)
+
+Una ves que tenemos esto podemos pasar a nutra ventana de bloques de ahí ponemos las librerías de linx.
+
+![Imagen LabVIEW](Fig.22.png)
+
+Para poder hacer la interfaz con arduino abrimos un sistema while para que sea repetitivo el sistema dentro del while ponemos dos digital write como se ve hacemos las coneciones para que compartan la misma información y el error.
+
+![Imagen LabVIEW](Fig.35.png)
+
+  En esta parte usaremos un modulador de pulsos llamado set duty para que sea el variador de velocidad del motor y lo conectamos al digital write será todo lo que ocuparemos de linx por lo cual hacemos lo que siempre abrimos y cerramos las librerías de linx y ponemos el error al final y al principio el serial point para el puerto que se ocupara.
+  
+  ![Imagen LabVIEW](Fig.36.png)
+ 
+ Esto que hicimos fue solo para la conexión que se realiza para la interfaz.
+
+Para escoger los pines en los que se va a ocupar o en los que vamos a escoger para la conexión del puente H.
+
+![Imagen LabVIEW](Fig.37.png)
+
+Escogemos 3 numeric control para los pines, los numeric control es cogeremos representación para poder escogerlos como una propiedad en este caso escogeremos U8 como se ve en la figura.
+
+![Imagen LabVIEW](Fig.38.png)
+
+La conexión nos quedara de la siguiente manera para los pines y el pwm.
+
+![Imagen LabVIEW](Fig.39.png)
+
+Para hacer el intercambio del giro agregamos una compuerta de negación y la conectamos al digital write como se ve en la figura.
+
+![Imagen LabVIEW](Fig.40.png)
+
+De esta manera aremos el cambio de giro la conexión final nos tiene que quedar de la siguiente manera.
+
+![Imagen LabVIEW](Fig.41.png)
+
+La conexión del circuito es la siguiente en el cual ocuparemos un L293D.
+
+![Imagen LabVIEW](Fig.42.png)
