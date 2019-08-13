@@ -144,6 +144,19 @@ Empezamos a trabajar con una tarjeta de adquisición de datos con arduino está 
 
 ![Imagen LabVIEW](Fig.14.png)
 
+Empecemos mandando una señal digital de labview a arduino 
+Serramos el programa y lo volvemos abrir para poder abrir el primer programa que nos manda las librería de linx re alisamos lo que se muestra en la siguiente figura.
+
+![Imagen LabVIEW](Fig.15.png)
+
+Una ves realizada esta acción tendremos un sistema ya armado como el que se muestra a continuación.
+
+![Imagen LabVIEW](Fig.16.png)
+
+Como podemos observar en la figura anterior podemos ver que se encuentra algunas cosas que hemos estado realizando anteriormente en los ejercicios anteriores también se visualizan la intervención del arduino como la conecion donde se esta realizando la acción de nuestra tarjeta .
+En la ventana de nuestro block diagram tenemos la interfaz de arduino con los cuadros que dicen linx  en la siguiente figura se muestran para que es cada una de estos cuadros. 
+
+
 ## practica 4
 
 ## practica 5
