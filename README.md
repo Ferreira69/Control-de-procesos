@@ -1,4 +1,20 @@
 # Control-de-procesos
+
+### *Índice*
+- [Introducción a LabVIEW](#introducción-a-labview).
+- [Practica 1](#Practica-1).
+- [Practica 2](#Practica-2).
+- [Practica 3](#Practica-3).
+- [Practica 4](#Practica-4).
+- [Practica 5](#Practica-5).
+- [Practica 6](#Practica-6).
+- [Practica 7](#Practica-7).
+- [Practica 8](#Practica-8).
+- [Practica 9](#Practica-9).
+- [Practica 10](#Practica-10).
+- [Practica 11](#Practica-11).
+- [Practica 12](#Practica-12).
+
 ## Intrducción
 
 Labview es un entorno de programación básica usada por ingenieros y científicos para desarrollar mediciones sofisticadas
