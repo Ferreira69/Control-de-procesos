@@ -156,8 +156,23 @@ Una ves realizada esta acción tendremos un sistema ya armado como el que se mue
 Como podemos observar en la figura anterior podemos ver que se encuentra algunas cosas que hemos estado realizando anteriormente en los ejercicios anteriores también se visualizan la intervención del arduino como la conecion donde se esta realizando la acción de nuestra tarjeta .
 En la ventana de nuestro block diagram tenemos la interfaz de arduino con los cuadros que dicen linx  en la siguiente figura se muestran para que es cada una de estos cuadros. 
 
+![Imagen LabVIEW](Fig.17.png)
+
+ya que savemos que es cada uno de estos conectamos el led en nuestro arduino como se muestra 
+
+![Imagen LabVIEW](Fig.72.png)
 
 ## practica 4
+
+Para esta práctica aremos prender y apagar un led con un lapso de tiempo que nosotros elijamos 
+Ponemos un led en nuestro frotn panel
+
+![Imagen LabVIEW](Fig.73.png)
+
+Todo lo que va a consistir va hacer en nuestro diagrama de bloques como se muestra cada una en la siguiente imagen 
+Vamos a dividir entre dos para que solo se un valor la i nos dará la información que vamos a obtener y ese número lo dividimos entre 2 si es mayor que 2 se apaga el led, pero si es menor se va a prender y ponemos el tiempo y vemos como parpadea el led.
+
+![Imagen LabVIEW](Fig.74.png)
 
 ## practica 5
 
@@ -178,6 +193,8 @@ El recuadro azul que tenemos solo lo penemos de la siguiente manera damos doble 
 ![Imagen LabVIEW](Fig.20.png)
 
 ## practica 6
+
+
 ## practica 7
 Vamos a mandar una señal con corto como si fuera un botón y ala ves que se haga el corto se encienda un led. 
 En nuestra ventana de front panel colocamos nuestro botón de paro y nuestro led para verificar que este prendiendo al mismo tiempo los colocamos como se muestra en figura.
