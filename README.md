@@ -194,6 +194,29 @@ El recuadro azul que tenemos solo lo penemos de la siguiente manera damos doble 
 
 ## practica 6
 
+Para esta práctica encenderemos un led pero ala ves una gráfica se prendera entonces empezamos poniendo el led y la gráfica como se muestra.
+
+![Imagen LabVIEW](Fig.73.png)
+
+![Imagen LabVIEW](Fig.74.png)
+
+Después de esto abrimos las librerías de linx y ocupamos digital read y lo metemos a un ciclo while
+
+![Imagen LabVIEW](Fig.75.png)
+
+Ponemos el buscador con control y la barra espaciadora y ponemos sin para colocar la grafica del seno
+
+![Imagen LabVIEW](Fig.76.png)
+
+Después hacemos las siguientes conexiones para empezar a conectar la grafica no se preocupen por el error.
+
+![Imagen LabVIEW](Fig.77.png)
+
+La conexión final es la siguiente 
+
+![Imagen LabVIEW](Fig.78.png)
+
+
 
 ## practica 7
 Vamos a mandar una señal con corto como si fuera un botón y ala ves que se haga el corto se encienda un led. 
@@ -438,6 +461,32 @@ La conexión final se ve cono se muestra
 La conexión del display de 7 segmentos con el arduino es la siguiente
 
 ![Imagen LabVIEW](Fig.71.png)
+
+## Practica 12
+
+Para mandar la señal a dos segmentos dependiendo si son ánodo común o catado común se utilizar los falso o verdaderos de los bolean para mandar la señal que se va a necesitar.
+Para la siguiente practica conectaremos los display de la siguiente forma.
+
+![Imagen LabVIEW](Fig.80.png)
+
+Nuestro frotn panel lo modificamos de la siguiente manera.
+
+![Imagen LabVIEW](Fig.81.png)
+
+En el programa que tenemos del cual es la practica 11 solo tenemos que agregar lo que es el segundo display como se muestra.
+
+![Imagen LabVIEW](Fig.82.png)
+
+A hora para que nos muestre los dos dígitos tenemos que dividir entre 10 esto se realiza en la entrada del array.
+
+![Imagen LabVIEW](Fig.83.png)
+
+Como podemos observar el IQ lo conectamos en primer lugar y el segundo R 
+La conexión final que debemos de tener es de la siguiente forma.
+
+![Imagen LabVIEW](Fig.84.png)
+
+
 
 
 
